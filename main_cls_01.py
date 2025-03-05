@@ -12,7 +12,7 @@ def main():
         800.00,
         '15-inch display, 8GB RAM, 256GB SSD') #svaka .py datoteka je modul; da bih pozvao klasu Product, moram prije napisati modul u kojem se ta klasa nalazi
     products.append(laptop)
-    print(laptop)
+    print(laptop) #pokrene se funkcija def__repr__ iz modula products
 
     smartphone = pr.Product(
         'Smartphone',
