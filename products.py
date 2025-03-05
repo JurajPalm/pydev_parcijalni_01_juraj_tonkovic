@@ -9,5 +9,5 @@ class Product:
         self.price = price
         self.description = description
               
-    def __repr__(self) -> str:
+    def __repr__(self) -> str: #repr je posebna metoda (funkcija unutar klase) koja reprezentira objekt klase kao string
         return f'repr Naziv: {self.name}'
