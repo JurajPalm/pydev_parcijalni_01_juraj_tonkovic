@@ -26,5 +26,8 @@ def main():
 
     #svaki ispis vrijednosti se moze pretvoriti u tekstualni podatak
 
+#name je varijabla koja postoji u svakom Python modulu (file-u)
+#default vrijednost varijable name je naziv modula (ovdje main_cls_01)
+#ovakva konstrukcija osigurava da se funkcija main pokrene samo u ovom modu (a ne ako napravimo import modula)
 if __name__ == '__main__':
     main()
